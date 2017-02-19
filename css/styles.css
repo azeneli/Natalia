@@ -433,7 +433,8 @@ h1 {
   margin-bottom: 15px; }
 
 p {
-  color: #00a4e0;
+  /*color: #00a4e0;*/
+  color: #DE5A51;
   font-size: 24px;
   font-weight: 600; }
 
@@ -709,7 +710,8 @@ body.fullPage-portfolio {
       -webkit-transition-delay: 0.2s;
       width: 40px;
       height: 6px;
-      background-color: #ccc;
+      /*background-color: #ccc;*/
+      background-color: #DE5A51;
       display: block; }
       #menu .menu-bars span:before, #menu .menu-bars span:after {
         position: absolute;
@@ -717,7 +719,7 @@ body.fullPage-portfolio {
       #menu .menu-bars span:before, #menu .menu-bars span:after {
         width: 40px;
         height: 6px;
-        background-color: #ccc;
+        background-color: #DE5A51;
         display: block; }
       #menu .menu-bars span:before {
         margin-top: -12px;
@@ -785,9 +787,33 @@ body.fullPage-portfolio {
     font-family: arial;
 }
  
-.intro__title {
-    /*color: #00a4e0;*/
+h1.intro__title {
+    color: #333331;
+    font-size: 10rem;
 } 
+
+.intro__title-phd{
+  color: #DE5A51;
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 0 25px 15px 0;
+}
+
+.intro__title-writer {
+  color: #DE5A51;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.intro__title-writer:hover {
+  color: #BBBAB6;
+}
+
+.intro__title-phd:hover {
+  color: #BBBAB6;
+}
+
 
 .social__media-height {
     height: 32.5px;
@@ -829,3 +855,16 @@ body.fullPage-portfolio {
 #social__media-rounded {
     border-radius: 3px;
 }
+
+/*----------------------------------------------------------------------------------- */
+/*  Colors
+/*----------------------------------------------------------------------------------- */
+
+#section0, #section1, #section2, #section3, #section4 {
+  background-color: #F2F1ED !important;
+}
+
+#glyphicon-chevron-down__customColor {
+  color: #DE5A51;
+}
+
