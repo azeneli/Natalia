@@ -753,7 +753,7 @@ body.fullPage-portfolio {
 }
 /* line 435 in css can change the color of the p tag on the root*/
 .aboutme-text {
-    color: white;
+    color: #333331;
 }
 
 #social__media {
@@ -789,19 +789,19 @@ body.fullPage-portfolio {
  
 h1.intro__title {
     color: #333331;
-    font-size: 10rem;
+    font-size: 12rem;
 } 
 
 .intro__title-phd{
   color: #DE5A51;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
   margin: 0 25px 15px 0;
 }
 
 .intro__title-writer {
   color: #DE5A51;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -827,18 +827,20 @@ h1.intro__title {
     border-radius: 3px;
 }
 
-.about__me-text {
-    color: #fff;
+/*.about__me-text {
+    color: #DE5A51;
+}
+*/
+.aboutme__desc { 
+   text-align: center; 
+   padding: 0 8rem;
+   color: #DE5A51;
 }
 
 /*.scroll__color {
     color: #ccc !important;
 }*/
 
-.aboutme__desc { 
-   text-align: center; 
-   padding: 0 8rem;
-}
 
 /*----------------------------------------------------------------------------------- */
 /*  Social Media */
