@@ -870,3 +870,43 @@ h1.intro__title {
   color: #DE5A51;
 }
 
+/*----------------------------------------------------------------------------------- */
+/*  Intro Content */
+/*----------------------------------------------------------------------------------- */
+
+.intro__cnt {
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+}
+
+.intro {
+/*    height: 100%;
+    width: 100%;*/
+    margin: 0 auto;
+}
+ 
+.intro__cnt-text {
+  width: 70%;
+  float: left;
+  text-align: center;
+  padding: 7rem 0 5rem 0;
+} 
+
+.intro__cnt-text--title {
+  font-size: 8rem;
+  color: #333331;
+  text-align: left;
+}
+
+.intro__cnt-text--desc {
+  font-size: 2rem;
+  color: #DE5A51;
+  text-align: left;
+}
+
+.intro__cnt-pic {
+  width: 30%;
+  float: left;
+
+}
